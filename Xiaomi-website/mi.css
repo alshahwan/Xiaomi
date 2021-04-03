@@ -29,27 +29,25 @@ body {
 .rightnavi ul .li1 {
     display: inline-block;
     margin: 0px 10px;
-    background: #696969;
+    background-image: url("button-static1.gif");
     border: 2px solid #2c2c2c;
     border-radius: 20px;
     padding: 10px 12px;
-    font-weight: bold;
 }
 .rightnavi ul .li1:hover {
-    background: #555555;
+    background-image: url("button-anim1.gif");
 
 }
 .rightnavi ul .li2 {
     display: inline-block;
     margin: 0px 10px;
-    background: #ec671b;
+    background-image: url("button-static2.gif");
     border: 2px solid #b85115;
     border-radius: 20px;
     padding: 10px 12px;
-    font-weight: bold;
 }
 .rightnavi ul .li2:hover {
-    background: #b85115;
+    background-image: url("button-anim2.gif");
 
 }
 .rightnavi ul li a {
