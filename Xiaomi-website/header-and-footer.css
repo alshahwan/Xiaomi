@@ -2,7 +2,7 @@ body {
     margin: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.upperbarflex {
+#upperbarflex {
     display: flex;
     background-color: rgb(50, 50, 50);
     justify-content: center;
@@ -14,41 +14,41 @@ body {
 }
 .logo img {
     height: 50px;
-    margin: 0px 20px;
+    margin: 5px 20px 0px 20px;
 }
 .middlefreespace {
     flex:3
 }
 .rightnavi ul {
     flex:3;
-    text-align: right;
     list-style-type: none;
     color: white;
+    text-shadow: 0px 0px 4px #2c2c2c;
     margin-right: 20px;
     }
 .rightnavi ul .li1 {
     display: inline-block;
     margin: 0px 10px;
-    background-image: url("button-static1.gif");
+    background: #585858;
     border: 2px solid #2c2c2c;
     border-radius: 20px;
-    padding: 10px 12px;
+    padding: 5px 12px 8px 12px;
 }
 .rightnavi ul .li1:hover {
-    background-image: url("button-anim1.gif");
+    background: #464646;
 
 }
 .rightnavi ul .li2 {
     display: inline-block;
     margin: 0px 10px;
-    background-image: url("button-static2.gif");
+    background: #ec671b;
     border: 2px solid #b85115;
     border-radius: 20px;
-    padding: 10px 12px;
+    padding: 5px 12px 8px 12px;
+    text-align: left;
 }
 .rightnavi ul .li2:hover {
-    background-image: url("button-anim2.gif");
-
+    background: #b85115;
 }
 .rightnavi ul li a {
     text-decoration: none;
@@ -56,7 +56,6 @@ body {
     }
 .navibar {
     text-align: center;
-    /* background: #dddddd; */
     
 }
 .navibar2 {
@@ -75,9 +74,11 @@ body {
 .navibar2 li a:hover{
     color: #ffffff;
     background: #ec671b;
+    background-image: url(loop.gif);
 }
 .slideshow {
     background: url('slide.jpg');
+    background-color: darkgray;
     background-size:cover;
     height: 400px;
     }
@@ -85,7 +86,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row-reverse;
     text-align: center;
     width: 70%;
     margin: 0px auto;
@@ -100,7 +100,7 @@ body {
     background: #ec671b;
     text-align: left;
     padding: 5px;
-    width: 230px;
+    width: 275px;
     color: white;
 }
 .containerright p{
@@ -116,7 +116,7 @@ body {
     text-align: center;
     Color: white;
     padding: 5px 0px;
-
+    border-top: 3px solid #eb681d ;
 }
 .underslide a{
     text-decoration: none;
@@ -125,11 +125,7 @@ body {
 .reddo {
     color:#eb681d;
 }
-.mainbody {
-    text-align: center;
-    margin:100px 0px;
 
-}
 .footercolor {
     background:rgb(50, 50, 50);
 }
@@ -150,11 +146,15 @@ body {
     text-decoration: none;
     color:rgb(226, 226, 226)
         }
+.rawfooter a:hover, .underslide a:hover{
+    color:#ec671b;
+}
 .footermain .rawfooter ul li{
     list-style-type: none;
     text-decoration: none;
     margin-bottom: 5px;
             }
+
 .pfooter {
     font-weight: bold;
     font-size: larger;
@@ -179,3 +179,8 @@ body {
     padding-bottom: 15px;
     padding-top: 20px;
 }
+.social-bullet {
+    width: 16px;
+    margin-right: 5px;
+    margin-bottom: -3px;
+    }

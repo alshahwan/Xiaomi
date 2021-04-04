@@ -1,0 +1,104 @@
+.mainbody {
+    margin: 0px auto;
+    width: 80%;
+    }
+.behingthescenesflex h1{
+    text-align: center;
+    font-size: 40px;
+    color: #eb681d;
+    margin-bottom: -10px;
+    }
+.mainbody h3 {
+    text-align: center;
+    font-weight:normal;
+    margin-bottom: 50px;
+}
+.mifoldmain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 30px auto;
+    flex-direction: row-reverse;
+}
+.mifoldflex h1 {
+    font-size: 50px;
+}
+.mifoldflex p {
+    font-size: 20px;
+}
+.mifoldflex{
+    margin: 0px 20px
+}
+.productslayer1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    width: 80%;
+    min-width: none;
+        }
+.productslayer1 img{
+    margin: 4px;
+    flex:1;
+}
+.productslayer1 img:hover{
+    outline: 4px solid rgb(173, 173, 173);;
+    outline-offset: -4px;
+}
+.productslayer2 {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    }
+
+.productslayer3{
+    display: flex;       
+    justify-content: center;
+    align-items: center;
+    }
+.productslayer3 img{
+    flex:1
+}
+.orangeline{
+    width: 20%;
+    height: 2px;
+    background-color: #eb681d;
+    margin-top: 42px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#flexmitarbeiter, .behingthescenesflex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+#flexmitarbeiter {
+    width: 60%;
+    margin: 0px auto;
+
+}
+.mitarbeiter, .mifoldflex {
+    flex:1;
+    text-align: center;
+}
+
+.photos {
+    border-radius: 250px;
+    border: 3px solid #ec671b;
+    height: 150px;
+    margin: 10px 0px;
+}
+.photos:hover{
+    margin: 10px -2px;
+    box-shadow: 0px 0px 5px #eb681d;
+
+    }
+.boldnames {
+    font-weight: bold;
+}
+.jobtitle {
+    margin-top: -10px;
+    }
+

@@ -5,11 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Xiaomi code test</title>
-    <link rel="stylesheet" href="mi.css">
+    <link rel="stylesheet" href="header-and-footer.css">
+    <link rel="stylesheet" href="body.css">
 </head>
 <body>
-    <div class="upperbarflex">
-        <div class="logo"><img src="logo.svg" alt="Xiaomi logo" alt="Xiaomi logo"></div>
+    <!-- START HEADER -->
+    <!-- Main bar with navigation and logo-->
+    <div id="upperbarflex">
+        <div class="logo"><img src="logo.svg" alt="Xiaomi logo"></div>
         <div class="middlefreespace"></div>
         <div class="rightnavi">
             <ul>
@@ -18,6 +21,7 @@
             </ul>
         </div>
     </div>
+    <!-- website's navigation menu-->
     <div class="navibar">
         <ul class=navibar2>
             <li><a href="#">Mi phones</a></li>
@@ -28,25 +32,81 @@
             <li><a href="#">Press & Media</a></li>
         </ul>
     </div>
+    <!-- main big laptop photo with description-->
     <div class="slideshow">
         <div class="flexbox2">
-            <div class="containerleft">
-            </div>
             <div class="containerright">
                 <br>
                 <br>
                 <br>
-                <h3>The new E-scooter is here</h3>
-                <p>Das kinetische System zur Rückgewinnung von Energie (KERS) wurde komplett überarbeitet und die Effizienz der Energieumwandlung zusätzlich verbessert. Das System ist in der Lage, kinetische Energie aus jedem Bremsvorgang und jedem Freilauf ohne Motorunterstützung in verwendbare elektrische Energie umzuwandeln, um die Reichweite der Motorunterstützung zu erweitern. Die Effizienz der Energie-Rückgewinnung kann über die Mi Home-App an Ihre persönlichen Anforderungen angepasst werden.</p>
+                <h3>Meet the new Mi Notebook 14</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="containerleft">
             </div>
         </div>
     </div>
+    <!-- dark bar-->
     <div class="underslide">
-        <span class="reddo">››</span> Watch <a href="#">the full video</a> from the DeveloperWeek in Nuremberg
+        <span class="reddo">››</span> Watch the <a href="#">full video</a> of out Notebeek 14 reveal from the DeveloperWeek in Nuremberg
     </div>
+    <!-- START BODY -->
+    
     <div class="mainbody">
-        <h1>* HERE WILL BE THE MAIN CONTENT *</h1>
-      </div>
+        <!-- the new mifold-->
+        <div class="mifoldmain">
+            <div class="mifoldflex">
+                <h1>This is the moment you've been waiting for.</h1>
+                <p>We're proud to present our first foldable smartphone: MiMIXFOLD​.</p>
+            </div>
+            <div class="mifoldflex">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Kx4kfrD4NwI?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        <!-- latest products-->
+        <div class="behingthescenesflex">
+            <div class="orangeline"></div>
+            <h1>Our latest products</h1>
+            <div class="orangeline"></div>
+        </div>
+        <br>
+        <br>
+               <div class="productslayer1">
+            <a href="#"><img src="products/miprojector.jpg"></a>
+            <div class="productslayer2">
+                <a href="#"><img src="products/miwatch.jpg"></a>
+                <div class="productslayer3">
+                    <a href="#"><img src="products/miair.jpg"></a>
+                    <a href="#"><img src="products/mi11pro.jpg"></a>
+                </div>
+            </div>
+        </div>
+        <!-- Behind the scenes -->
+        <div class="behingthescenesflex">
+            <div class="orangeline"></div>
+            <h1>Behind the scenes</h1>
+            <div class="orangeline"></div>
+        </div>
+        <h3>Meet our heros from behind the scenes, who made this success possible</h3>
+        <div id="flexmitarbeiter">
+                <div class="mitarbeiter">
+                    <img class= "photos" src="obama.jpg" alt="Barack Obama">
+                    <p class="boldnames">Barack Obama</p>
+                    <p class="jobtitle">Rockets launcher</p>
+                </div>
+                <div class="mitarbeiter">
+                    <img class= "photos" src="me.jpg" alt="Mohammad Alshahwan">
+                    <p class="boldnames">Mohammad Alshahwan</p>
+                    <p class="jobtitle">Can cook rice</p>
+                </div>
+                <div class="mitarbeiter">
+                    <img class= "photos" src="angela.jpg" alt="Angela Merkel">
+                    <p class="boldnames">Angela Merkel</p>
+                    <p class="jobtitle">Refugees importer</p>
+                </div>
+        </div>
+    </div>
+    <!-- START FOOTER -->
     <div class="footercolor">
     <div class="footermain">
         <div class="rawfooter">
@@ -70,10 +130,10 @@
         <div class="rawfooter">
             <ul>
                 <li class="pfooter">Follow MI</li>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Youtube</a></li>
-                <li><a href="#">Instagram</a></li>
-                <li><a href="#">Twitter</a></li>
+                <li><img class="social-bullet" src="social/fb.png"><a href="#">Facebook</a></li>
+                <li><img class="social-bullet" src="social/yt.png"><a href="#">Youtube</a></li>
+                <li><img class="social-bullet" src="social/in.png"><a href="#">Instagram</a></li>
+                <li><img class="social-bullet" src="social/tw.png"><a href="#">Twitter</a></li>
             </ul>
         </div>
         <div class="rawfooter">
@@ -86,5 +146,6 @@
         </div>
     </div>
 </div>
+<!-- END FOOTER -->
 </body>
 </html>
