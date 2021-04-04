@@ -81,6 +81,7 @@ body {
     background-color: darkgray;
     background-size:cover;
     height: 400px;
+    background-position: center;
     }
 .flexbox2 {
     display: flex;
