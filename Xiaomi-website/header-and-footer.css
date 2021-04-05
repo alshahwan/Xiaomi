@@ -56,22 +56,25 @@ body {
     }
 .navibar {
     text-align: center;
-    
+      
 }
-.navibar2 {
+.navibar ul{
     list-style-type: none;
+    
     }
-.navibar2 li {
+.navibar li {
     display: inline-block;
     margin: 0px 2%;
+
 }
-.navibar2 li a{
+.navibar li a{
     text-decoration: none;
     color: #ec671b;
     font-weight: bold;
     padding: 16px;
+
 }
-.navibar2 li a:hover{
+.navibar li a:hover{
     color: #ffffff;
     background: #ec671b;
     background-image: url(loop.gif);
@@ -138,6 +141,7 @@ body {
     margin:0px auto;
     padding-bottom: 20px;
 }
+
 .rawfooter {
     flex: 1;
     color: rgb(226, 226, 226);
@@ -184,4 +188,30 @@ body {
     width: 16px;
     margin-right: 5px;
     margin-bottom: -3px;
+    }
+
+    /* Rules if the screen less than 600px wide / a mobile phone */
+
+       @media only screen and (max-width: 600px) {
+        .footermain {
+            flex-wrap: wrap;
+            width: 90%;
+        }
+        .navibar li{
+            margin: 10px
+        }
+        .navibar li a:hover{
+            color: #ec671b;
+            background: white;
+            background-image: none;
+        }
+        .slideshow {
+            background: none;
+            background-color: lightgray;
+            height: auto;
+            padding-bottom: 20px;
+        }
+        .mifoldflex iframe {
+            max-width: 100%;
+        }
     }

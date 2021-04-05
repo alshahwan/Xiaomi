@@ -21,6 +21,7 @@
     margin: 30px auto;
     flex-direction: row-reverse;
 }
+
 .mifoldflex h1 {
     font-size: 50px;
 }
@@ -35,12 +36,12 @@
     justify-content: center;
     align-items: center;
     margin: 0px auto;
-    width: 80%;
-    min-width: none;
-        }
+    max-width: 80%;
+}
 .productslayer1 img{
     margin: 4px;
     flex:1;
+
 }
 .productslayer1 img:hover{
     outline: 4px solid rgb(173, 173, 173);;
@@ -93,7 +94,6 @@
 .photos:hover{
     margin: 10px -2px;
     box-shadow: 0px 0px 5px #eb681d;
-
     }
 .boldnames {
     font-weight: bold;
@@ -102,3 +102,31 @@
     margin-top: -10px;
     }
 
+    /* Rules if the screen less than 600px wide / a mobile phone */
+
+
+    @media only screen and (max-width: 600px) {
+        .productslayer1 {
+            flex-direction: column;
+        }
+        .productslayer1 img {
+            width: 100%;
+            margin: 0px;
+        }
+        .mifoldmain {
+            flex-direction: column;
+        }
+        .photos {
+            border-radius: 150px;
+            border: 3px solid #ec671b;
+            height: 100px;
+            margin: 10px 0px;
+            }
+        .photos:hover{
+            margin: 10px 0px;
+            box-shadow: 0px 0px 0px;
+        }
+        #flexmitarbeiter {
+            width: 95%;
+    }
+    }
