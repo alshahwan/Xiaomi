@@ -102,8 +102,28 @@
     margin-top: -10px;
     }
 
-    /* Rules if the screen less than 600px wide / a mobile phone */
 
+
+    /* Rules if the screen less than 900px wide / a tablet */
+
+    @media only screen and (max-width: 900px) {
+        .productslayer1 {
+            flex-wrap: wrap;
+        }
+        .mifoldmain {
+            flex-direction: column;
+        }
+        #flexmitarbeiter {
+            width: 95%;
+        }
+        .mifoldflex h1 {
+            font-size: 35px;
+        }
+    }
+
+
+    /* Rules if the screen less than 600px wide / a mobile phone */
+    
 
     @media only screen and (max-width: 600px) {
         .productslayer1 {
@@ -128,5 +148,8 @@
         }
         #flexmitarbeiter {
             width: 95%;
-    }
+        }
+        .mifoldflex h1 {
+            font-size: 25px;
+        }
     }

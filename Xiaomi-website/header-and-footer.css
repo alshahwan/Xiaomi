@@ -190,6 +190,21 @@ body {
     margin-bottom: -3px;
     }
 
+    /* Rules if the screen less than 900px wide / a tablet */
+    @media only screen and (max-width: 900px) {
+        .footermain {
+            flex-wrap: wrap;
+        }
+        .navibar li{
+            margin: 10px
+        }
+        .mifoldflex iframe {
+            max-width: 100%;
+        }
+    }
+
+
+
     /* Rules if the screen less than 600px wide / a mobile phone */
 
        @media only screen and (max-width: 600px) {
@@ -198,7 +213,7 @@ body {
             width: 90%;
         }
         .navibar li{
-            margin: 10px
+            margin: 10px;
         }
         .navibar li a:hover{
             color: #ec671b;
@@ -215,3 +230,4 @@ body {
             max-width: 100%;
         }
     }
+
